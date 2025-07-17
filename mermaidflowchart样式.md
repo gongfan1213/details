@@ -107,7 +107,7 @@ tertiaryTextColor: #00A4FF (特定节点/分组文字颜色 - 亮蓝色)
 使用示例
 
 
-![Uploading image.png…]()
+<img width="832" height="397" alt="image" src="https://github.com/user-attachments/assets/499dcacb-16d3-44aa-ba98-03f6e6555ae9" />
 
 
 ```
@@ -157,6 +157,13 @@ graph TD
     %% 箭头样式：深灰色，1.5px宽度
     style S3 fill:#f99
 ```
+
+
+<img width="832" height="397" alt="image" src="https://github.com/user-attachments/assets/defc9015-7952-4cae-a308-0bc7ed3d041d" />
+
+
+![Uploading image.png…]()
+
 
 https://mermaid.js.org/config/theming.html
 
