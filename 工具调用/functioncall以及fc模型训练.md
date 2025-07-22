@@ -294,6 +294,29 @@ tokenizer = AutoTokenizer.from_pretrained(
     )
 tokenizer.chat_template = "{{ bos_token }}{% if messages[0]['role'] == 'system' %}{{ raise_exception('System role not supported') }}{% endif %}{% for message in messages %}{{ '<|im_start|>' + message['role'] + '\n' + message['content'] | trim + '<|im_end|>\n' }}{% endfor %}{% if add_generation_prompt %}{{'<|im_start|>assistant\n'}}{% endif %}"
 ```
+user:input
+
+model:一段话，+tool_call
+
+role:tool + Tool_result
+
+model:结果
+
+遇到observation，去解析input
+
+function_call需要模型迭代支持，每个厂商的functioncall可能不太一样的
+
+
+mcp是一个通信的协议的，甚至可以理解为另外一个格式的function——call
+
+这个协议包括了client和server两个部分的
+
+server定义了工具
+
+client可以解析工具，并且调用server
+
+备注：因为client需要去解析工具结果的，因此systemprompt怎么写是client定义的
+
 
 
 
