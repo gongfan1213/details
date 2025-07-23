@@ -74,4 +74,38 @@ For HTTP-based servers: Standard output logging is fine since it doesn’t inter
 对于基于HTTP的服务器：标准输出日志记录就可以，因为它不会干扰HTTP响应。
 
 
+Best practices 最佳实践
+Error Handling 错误处理
+Always wrap tool calls in try-catch blocks
+始终将工具调用包装在try-catch块中
+Provide meaningful error messages 提供有意义的错误信息
+Gracefully handle connection issues 优雅地处理连接问题
+Resource Management 资源管理
+Use AsyncExitStack for proper cleanup
+使用 AsyncExitStack 进行妥善清理
+Close connections when done 完成后关闭连接
+Handle server disconnections 处理服务器断开连接
+Security 安全
+Store API keys securely in .env 将API密钥安全存储在.env中
+Validate server responses 验证服务器响应
+Be cautious with tool permissions 谨慎授予工具权限
+​
+Troubleshooting 故障排除
+​
+Server Path Issues 服务器路径问题
 
+Double-check the path to your server script is correct
+
+仔细检查服务器脚本的路径是否正确
+
+Use the absolute path if the relative path isn’t working
+
+如果相对路径不起作用，请使用绝对路径。
+
+For Windows users, make sure to use forward slashes (/) or escaped backslashes (\) in the path
+
+对于Windows用户，请确保在路径中使用正斜杠（/）或转义后的反斜杠（\）
+
+Verify the server file has the correct extension (.py for Python or .js for Node.js)
+
+验证服务器文件具有正确的扩展名（Python为.py，Node.js为.js）
