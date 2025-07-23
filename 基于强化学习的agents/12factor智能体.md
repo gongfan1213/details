@@ -1,5 +1,38 @@
 https://www.youtube.com/watch?v=8kMaTybvDUw
 
+
+<img width="744" height="426" alt="image" src="https://github.com/user-attachments/assets/0c0a8a22-a3a6-499b-9c79-adf3663cbb95" />
+
+
+<img width="699" height="380" alt="image" src="https://github.com/user-attachments/assets/635fbd48-8267-4966-9007-1fdd1ba9d6d5" />
+
+unify execution state and business state
+
+launch /pause/resume with simple apis
+
+execution state:
+
+current step
+
+next step
+
+waiting status
+
+retry config
+
+etc
+
+bustiness state: whats happend in the agent workflow so far
+
+list of openai messages
+
+list of tool calls and results etc
+
+launch prase,resume
+
+
+
+
 该内容围绕构建可靠AI智能体展开，结合实践经验总结了核心思路、关键要素及实践原则，以下是详细总结：
 
 
