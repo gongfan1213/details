@@ -1,5 +1,9 @@
 https://www.youtube.com/watch?v=gEDl9C8s_-4
 
+
+<img width="573" height="414" alt="image" src="https://github.com/user-attachments/assets/7a905025-6562-4def-a0f0-61d8a38c78bd" />
+
+
 这是一场关于利用强化学习（RL）构建可靠智能体的演讲，核心围绕一个名为ART-E的AI电子邮件助手案例展开，深入探讨了强化学习在实际应用中的关键要点，包括前期准备、模型训练、常见问题及解决方案等方面，以下是详细总结：
 
 ### 一、前期准备：从提示模型起步
