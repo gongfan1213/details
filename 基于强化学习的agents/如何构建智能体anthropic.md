@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=D7_ipDqhtwk
+
 该内容围绕“如何构建高效智能体”展开，结合实践经验梳理了核心原则、实用方法及未来趋势，以下是详细总结：
 
 
