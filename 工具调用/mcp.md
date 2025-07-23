@@ -1,7 +1,23 @@
+Server not showing up in Claude 服务器未在Claude中显示
+
+
+
+Check your claude_desktop_config.json file syntax
+
+检查你的claude_desktop_config.json文件语法
+
+Make sure the path to your project is absolute and not relative
+
+确保项目路径是绝对路径，而非相对路径。
+
+Restart Claude for Desktop completely
+
+完全重启桌面版Claude
+
 ​
 Implementation Guidelines 实施指南
 
-Clients SHOULD: 客户端**应该**：
+Clients SHOULD: 客户端****应该**：
 
 Prompt users for consent before exposing roots to servers
 
