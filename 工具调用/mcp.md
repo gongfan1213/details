@@ -1,3 +1,189 @@
+Best practices 最佳实践
+​
+
+Transport selection 运输方式选择
+
+Local communication 本地通信
+
+Use stdio transport for local processes
+
+对本地进程使用标准输入输出传输
+
+
+Efficient for same-machine communication
+
+对于同一机器内的通信效率高
+
+Simple process management 简单的进程管理
+
+Remote communication 远程通信
+
+Use Streamable HTTP for scenarios requiring HTTP compatibility
+
+对于需要HTTP兼容性的场景，请使用可流化HTTP
+
+Consider security implications including authentication and authorization
+
+考虑安全影响，包括身份验证和授权
+
+​
+
+Message handling 消息处理
+
+Request processing 请求处理
+
+Validate inputs thoroughly 全面验证输入内容
+
+Use type-safe schemas 使用类型安全的模式
+
+Handle errors gracefully 优雅地处理错误
+
+Implement timeouts 实现超时设置
+
+Progress reporting 进度报告
+
+Use progress tokens for long operations
+
+对长时间运行的操作使用进度令牌
+
+Report progress incrementally 逐步报告进度
+
+Include total progress when known 已知总进度时，将其包含在内
+
+Error management 错误管理
+
+Use appropriate error codes 使用适当的错误代码
+
+Include helpful error messages 包含有用的错误信息
+
+Clean up resources on errors 发生错误时清理资源
+
+​
+
+Security considerations 安全注意事项
+
+Transport security 运输安全
+
+Use TLS for remote connections 对远程连接使用传输层安全协议（TLS）
+
+Validate connection origins 验证连接来源
+
+Implement authentication when needed 在需要时实施身份验证
+
+Message validation 消息验证
+
+Validate all incoming messages 验证所有传入消息
+
+Sanitize inputs 清理输入
+
+Check message size limits 检查消息大小限制
+
+Verify JSON-RPC format 验证JSON-RPC格式
+
+Resource protection 资源保护
+
+Implement access controls 实施访问控制
+
+Validate resource paths 验证资源路径
+
+Monitor resource usage 监控资源使用情况
+
+Rate limit requests 限制请求速率
+
+Error handling 错误处理
+
+Don’t leak sensitive information 不要泄露敏感信息
+
+Log security-relevant errors 记录与安全相关的错误
+
+Implement proper cleanup 执行适当的清理操作
+
+Handle DoS scenarios 处理拒绝服务（DoS）场景
+
+​Best practices 最佳实践
+
+When implementing resource support: 在实现资源支持时：
+
+Use clear, descriptive resource names and URIs
+
+使用清晰、描述性的资源名称和统一资源标识符
+
+Include helpful descriptions to guide LLM understanding
+
+添加有助于引导大语言模型理解的描述信息
+
+Set appropriate MIME types when known
+
+已知时设置合适的MIME类型
+
+Implement resource templates for dynamic content
+
+实现动态内容的资源模板
+
+Use subscriptions for frequently changing resources
+
+对频繁变化的资源使用订阅功能
+
+Handle errors gracefully with clear error messages
+
+优雅地处理错误，并给出清晰的错误信息
+
+Consider pagination for large resource lists
+
+对于大型资源列表，考虑使用分页功能
+
+Cache resource contents when appropriate
+
+在适当的时候缓存资源内容
+
+Validate URIs before processing 在处理之前验证统一资源标识符（URI）
+
+Document your custom URI schemes 记录您的自定义 URI 方案
+
+​
+
+Security considerations 安全注意事项
+
+When exposing resources: 在公开资源时：
+
+Validate all resource URIs 验证所有资源统一资源标识符
+
+Implement appropriate access controls
+
+实施适当的访问控制
+
+Sanitize file paths to prevent directory traversal
+
+清理文件路径以防止目录遍历
+
+Be cautious with binary data handling
+
+处理二进制数据时要谨慎
+
+Consider rate limiting for resource reads
+
+考虑对资源读取进行速率限制
+
+Audit resource access 审计资源访问
+
+Encrypt sensitive data in transit 传输中加密敏感数据
+
+Validate MIME types 验证MIME类型
+
+Implement timeouts for long-running reads
+
+为长时间运行的读取操作设置超时时间
+
+Handle resource cleanup appropriately
+
+妥善处理资源清理
+
+
+
+
+
+
+
 Server not showing up in Claude 服务器未在Claude中显示
 
 
