@@ -2,6 +2,7 @@ https://abdullin.com/ilya/how-to-build-best-rag/
 
 https://abdullin.com/ilya/how-to-build-best-rag/
 
+https://github.com/IlyaRice/RAG-Challenge-2
 
 # 作者在企业RAG挑战赛中遇到的困难及解决方案
 ## 一、PDF解析相关困难及解决
