@@ -1,3 +1,10 @@
+<img width="710" height="383" alt="image" src="https://github.com/user-attachments/assets/392d8a6e-87c6-49b7-af50-4f495154ff16" />
+
+<img width="658" height="407" alt="image" src="https://github.com/user-attachments/assets/06326eac-58fa-4b29-85e4-93a89b584b49" />
+
+<img width="680" height="401" alt="image" src="https://github.com/user-attachments/assets/23b203a5-2097-4f3c-bfe8-c6d498695545" />
+
+
 Memory(GB) = P * (Q/8)  * (1 + Overhead)
 
 P是参数数量（十亿)
