@@ -1,0 +1,10 @@
+flowchart LR
+  I[Data Ingestion] --> S[Splitter]
+  S --> E[Embedding]
+  E --> M[Milvus Index]
+  Q[User Query] --> EC[Embed Query]
+  EC --> R[Recall TopK]
+  R --> F[Filter/Rerank]
+  F --> C[Context Compression]
+  C --> L[LLM]
+  L --> O[Answer + Citations]

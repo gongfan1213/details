@@ -1,0 +1,10 @@
+flowchart LR
+  IN[Incoming Traffic] --> R[Rate Limiter]
+  R --> B[Bulkhead/Isolation]
+  B --> C[Circuits]
+  C --> S[Service Pods]
+  S --> D1[(Redis)]
+  S --> D2[(Milvus)]
+  S --> X[External APIs]
+  C --> F[Fallbacks]
+  F --> OUT[Degraded Responses]
