@@ -38,3 +38,8 @@ claude code分析文章汇总：
 
 https://southbridge-research.notion.site/
 
+https://encord.com/blog/meta-transformer-explained/
+
+https://encord.com/blog/diffusion-models/
+
+https://encord.com/blog/embeddings-machine-learning/
